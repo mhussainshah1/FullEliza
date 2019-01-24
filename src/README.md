@@ -1,19 +1,16 @@
 You will be creating an interactive chat-bot type program. Eliza is a therapist program that interacts with the user. Your program will need to evaluate what the user asks and turn the user's input into a question that sounds like the therapist really cares.
 
 ###Sample hedges:
-
 -Please tell me more
 -Many of my patients tell me the same thing
 -It is getting late, maybe we had better quit
 
 ###Sample qualifiers:
-
 *Why do you say that
 *You seem to think that
 *So, you are concerned that
 
 ###Replacements:
-
 +replace i with you
 +replace me with you
 +replace my with your
