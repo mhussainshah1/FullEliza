@@ -81,27 +81,26 @@ public class Main {
         while (true) {
             System.out.print("Enter your response here or Q to quit: ");
             question = keyboard.nextLine().toLowerCase();
-            
+
             if (question.equalsIgnoreCase("I am feeling great") | question.equals("q")) {
                 break;
+            } else{
+
+                int choice = 1 + (int) (Math.random() * 2);
+                switch(choice){
+                    case 1:
+                        int i = (int) (Math.random() * hedges.length);
+                        answer = hedges [i];
+                        break;
+                    case 2:
+                        int j = (int) (Math.random() * qualifiers.length);
+                        answer = qualifiers[j] + getReplacedString(replace, question);
+                        break;
+                    default:
+                        System.out.println("Invalid Choice");
+                }
+                System.out.println(answer);
             }
-
-            int choice = 1 + (int) (Math.random() * 2);
-            switch(choice){
-                case 1:
-                    int i = (int) (Math.random() * hedges.length);
-                    answer = hedges [i];
-                    break;
-                case 2:
-                    int j = (int) (Math.random() * qualifiers.length);
-                    answer = qualifiers[j] + getReplacedString(replace, question);
-                    break;
-                default:
-                    System.out.println("Invalid Choice");
-            }
-            System.out.println(answer);
-
-
         }
     }
     
