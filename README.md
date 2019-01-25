@@ -1,23 +1,23 @@
 You will be creating an interactive chat-bot type program. Eliza is a therapist program that interacts with the user. Your program will need to evaluate what the user asks and turn the user's input into a question that sounds like the therapist really cares.
 
-###Sample hedges:
+## Sample hedges:
 
--Please tell me more
--Many of my patients tell me the same thing
--It is getting late, maybe we had better quit
+- Please tell me more
+- Many of my patients tell me the same thing
+- It is getting late, maybe we had better quit
 
-###Sample qualifiers:
+## Sample qualifiers:
 
-*Why do you say that
-*You seem to think that
-*So, you are concerned that
+* Why do you say that
+* You seem to think that
+* So, you are concerned that
 
-###Replacements:
+## Replacements:
 
-+replace i with you
-+replace me with you
-+replace my with your
-+replace am with are
++ replace i with you
++ replace me with you
++ replace my with your
++ replace am with are
  
 
 When the user enters a statement the program responds in one of two ways:
@@ -50,7 +50,7 @@ public class SplitExample{
 }
 ```
 
-##Example session with Eliza
+## Example session with Eliza
 ```
 Good day. What is your problem? Enter your response here or Q to quit: my teacher hates me
 Why do you say that your teacher hates you
